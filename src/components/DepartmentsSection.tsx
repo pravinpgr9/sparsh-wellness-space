@@ -6,11 +6,11 @@ import {
   Brain, 
   Baby, 
   Hospital, 
-  Medicine, 
+  Pill, 
   Ambulance,
-  Cardiology,
-  Orthopedics,
-  Neurology,
+  Stethoscope,
+  Bone,
+  Activity,
   Eye, 
   Ear
 } from "lucide-react";
@@ -47,17 +47,17 @@ const Department = ({ icon, title, description }: DepartmentProps) => {
 const DepartmentsSection = () => {
   const departments = [
     {
-      icon: <Cardiology className="h-10 w-10" />,
+      icon: <Heart className="h-10 w-10" />,
       title: "Cardiology",
       description: "Advanced heart care treatments and cardiac diagnostics"
     },
     {
-      icon: <Orthopedics className="h-10 w-10" />,
+      icon: <Bone className="h-10 w-10" />,
       title: "Orthopedics",
       description: "Joint replacements, sports injuries, and bone health"
     },
     {
-      icon: <Neurology className="h-10 w-10" />,
+      icon: <Brain className="h-10 w-10" />,
       title: "Neurology",
       description: "Brain & spinal treatments with advanced neurological care"
     },
@@ -67,7 +67,7 @@ const DepartmentsSection = () => {
       description: "Specialized healthcare for infants, children, and adolescents"
     },
     {
-      icon: <Medicine className="h-10 w-10" />,
+      icon: <Pill className="h-10 w-10" />,
       title: "Gynecology & Maternity",
       description: "Women's health services and safe delivery care"
     },
@@ -77,17 +77,17 @@ const DepartmentsSection = () => {
       description: "Minimally invasive procedures and surgical excellence"
     },
     {
-      icon: <Medicine className="h-10 w-10" />,
+      icon: <Activity className="h-10 w-10" />,
       title: "Oncology",
       description: "Cancer treatment & chemotherapy with personalized care"
     },
     {
-      icon: <Medicine className="h-10 w-10" />,
+      icon: <Pill className="h-10 w-10" />,
       title: "Nephrology",
       description: "Kidney care & dialysis for acute and chronic conditions"
     },
     {
-      icon: <Medicine className="h-10 w-10" />,
+      icon: <Stethoscope className="h-10 w-10" />,
       title: "Gastroenterology",
       description: "Comprehensive digestive system treatments and care"
     },
